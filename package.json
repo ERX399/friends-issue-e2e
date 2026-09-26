@@ -1,0 +1,13 @@
+{
+  "name": "friends-and-sponsors",
+  "private": true,
+  "description": "夏之友链数据源（隔离 E2E） — Issue 审核 + PR 执行",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test .github/scripts/*.test.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "ipaddr.js": "2.5.0"
+  }
+}
